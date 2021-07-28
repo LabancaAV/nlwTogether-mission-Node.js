@@ -1,9 +1,14 @@
 import "reflect-metadata";
 import express from "express";
 
-const app = express();
+import { router } from "./routes";
 
 import "./database"
 
-// http://localhost:3000
+const app = express();
+
+app.use(express.json());
+
+app.use(router);
+
 app.listen(3000, () => console.log("Server is running nlw"));
