@@ -38,12 +38,7 @@ export class CreateCompliments1627750932979 implements MigrationInterface {
                         default: "now()"
                     
                     },
-                    {
-                        name: "updated_at",
-                        type: "timestamp",
-                        default: "now()"
-                    
-                    },
+
                 ],
                 foreignKeys: [
                     {

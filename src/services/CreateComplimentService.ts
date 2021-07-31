@@ -1,5 +1,5 @@
-import { getCustomRepository } from "typeorm"
-import { ComplimentsRepositories } from "../retositories/ComplimentRepositories"
+import { getCustomRepository } from "typeorm";
+import { ComplimentsRepositories } from "../retositories/ComplimentRepositories";
 import { UserRepositories } from "../retositories/UserRepositories";
 
 
